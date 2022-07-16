@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply
+    bg-stone-200
+}
+
+.container {
+    @apply
+    bg-white
+    md:w-9/12
+    mx-auto
+    my-10
+    p-10
+    rounded
+    shadow-lg
+}

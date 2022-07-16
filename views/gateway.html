@@ -9,7 +9,107 @@
         <title>PayPop</title>
     </head>
     <body>
+        <div class="container">
+            <div class="address mb-10">
+                <b>Address</b>: <br>
+                <span>F9ZTDh0tzJ9755GGT4npF9ZTDh0tzJ9755GGT4npF9ZTDh0tzJ9755GGT4npF9ZTDh0tzJ9755GGT4npF9ZTDh0tzJ9755GGT4np</span>
+            </div>
+            <div class="amount">
+                Amount: <br>
+                <b>10 xmr</b>
+            </div>
+
+            <div>
+                Pay with
+            </div>
+
+            <style>
+                .lds-spinner {
+                    color: official;
+                    display: inline-block;
+                    position: relative;
+                    width: 80px;
+                    height: 80px;
+                }
+                .lds-spinner div {
+                    transform-origin: 40px 40px;
+                    animation: lds-spinner 1.2s linear infinite;
+                }
+                .lds-spinner div:after {
+                    content: " ";
+                    display: block;
+                    position: absolute;
+                    top: 3px;
+                    left: 37px;
+                    width: 6px;
+                    height: 18px;
+                    border-radius: 20%;
+                    background: #000;
+                }
+                .lds-spinner div:nth-child(1) {
+                    transform: rotate(0deg);
+                    animation-delay: -1.1s;
+                }
+                .lds-spinner div:nth-child(2) {
+                    transform: rotate(30deg);
+                    animation-delay: -1s;
+                }
+                .lds-spinner div:nth-child(3) {
+                    transform: rotate(60deg);
+                    animation-delay: -0.9s;
+                }
+                .lds-spinner div:nth-child(4) {
+                    transform: rotate(90deg);
+                    animation-delay: -0.8s;
+                }
+                .lds-spinner div:nth-child(5) {
+                    transform: rotate(120deg);
+                    animation-delay: -0.7s;
+                }
+                .lds-spinner div:nth-child(6) {
+                    transform: rotate(150deg);
+                    animation-delay: -0.6s;
+                }
+                .lds-spinner div:nth-child(7) {
+                    transform: rotate(180deg);
+                    animation-delay: -0.5s;
+                }
+                .lds-spinner div:nth-child(8) {
+                    transform: rotate(210deg);
+                    animation-delay: -0.4s;
+                }
+                .lds-spinner div:nth-child(9) {
+                    transform: rotate(240deg);
+                    animation-delay: -0.3s;
+                }
+                .lds-spinner div:nth-child(10) {
+                    transform: rotate(270deg);
+                    animation-delay: -0.2s;
+                }
+                .lds-spinner div:nth-child(11) {
+                    transform: rotate(300deg);
+                    animation-delay: -0.1s;
+                }
+                .lds-spinner div:nth-child(12) {
+                    transform: rotate(330deg);
+                    animation-delay: 0s;
+                }
+                @keyframes lds-spinner {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            </style>
 
 
+            <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+        </div>
     </body>
 </html>

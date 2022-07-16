@@ -11,6 +11,8 @@ nunjucks.configure('views', {
     watch: true
 });
 
+app.use(express.static('public'));
+
 app.use('/', webRouter)
 
 app.listen(8080)
