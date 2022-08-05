@@ -16,4 +16,28 @@ body {
     p-10
     rounded
     shadow-lg
+    break-words
+    text-center
+}
+
+.button-address {
+    @apply
+    bg-slate-100
+    p-2
+    my-2
+    cursor-pointer
+}
+
+img {
+    margin: 0 auto;
+}
+
+.notification {
+    @apply
+    opacity-0
+}
+
+.img-check {
+    @apply
+    text-green-400
 }

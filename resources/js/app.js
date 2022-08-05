@@ -1,10 +1,12 @@
-import App from 'components/App'
+import App from './components/App.svelte'
+
+console.log(process.env)
 
 const app = new App({
     target: document.querySelector('#app'),
     props: {
-        name: 'world'
+        address: 'ADDRESS'
     }
 })
 
-export default app
+
